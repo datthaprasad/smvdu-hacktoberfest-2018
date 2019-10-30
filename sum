@@ -1,8 +1,10 @@
-#include<iostream.h>
-void main()
-{
-int a,b,c;
-cin>>a>>c;
-b=a+c;
-cout<<b;
+import java.util.Scanner;
+class sum{
+  public static void main(String []args){
+    Scanner in=new Scanner(System.in);
+    int a,b;
+    a=in.nextInt();
+    b=in.nextInt();
+    System.out.print("sum of given number is  : "+(a+b));
+  }
 }
